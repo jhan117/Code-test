@@ -10,6 +10,7 @@
     - [How to print a backslash in Python](#how-to-print-a-backslash-in-python)
   - [Python Operators](#python-operators)
     - [Python Arithmetic Operators](#python-arithmetic-operators)
+  - [Python Function](#python-function)
   - [Python User Input](#python-user-input)
 
 ## Python Numbers
@@ -92,6 +93,26 @@ Arithmetic operators are used with numeric values to perform common mathematical
 | % | Modulus |
 | \\\ | Exponentiation |
 | // | Floor division |
+
+## Python Function
+
+`map()`   
+Returns the specified iterator with the specified function applied to each item.
+
+### Definition and Usage
+
+The `map()` function executes a specified function for each item in an iterable. The item is sent to the function as a parameter.
+
+#### Syntax
+
+`map(function, iterables)`
+
+#### Parameter Values
+
+|Parameter|Description|
+|-|-|
+|function|Required. The function to execute for each item|
+|iterable|Required. A sequence, collection or an iterator object. You can send as many iterables as you like, just make sure the function has one parameter for each iterable.|
 
 ## Python User Input
 
