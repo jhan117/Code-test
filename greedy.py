@@ -64,3 +64,31 @@ result += count * first  # 가장 큰 수 더하기
 result += (m - count) * second  # 두 번째로 큰 수 더하기
 
 print(result)
+
+# 숫자 카드 게임
+# min() 함수 이용
+n, m = map(int, input().split())
+
+result = 0
+
+for i in range(n):
+    data = list(map(int, input().split()))
+    min_value = min(data)
+    result = max(result, min_value)
+
+print(result)
+
+# 2중 반복문 구조 이용
+n, m = map(int, input().split())
+
+result = 0
+
+for i in range(n):
+    data = list(map(int, input().split()))
+    min_value = 10001
+
+    for a in data:
+        min_value = min(min_value, a)
+    result = max(result, min_value)
+
+print(result)
